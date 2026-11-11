@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101820;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #172631;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #00e6a8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00e6a8;
+}
+
+section {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.home {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.home span {
+    color: #00e6a8;
+}
+
+.home h2 {
+    margin-bottom: 15px;
+}
+
+.home p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00e6a8;
+    color: #101820;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about, #contact {
+    background: #172631;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    color: #00e6a8;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background: #172631;
+    border: 1px solid #00e6a8;
+    padding: 25px 45px;
+    border-radius: 10px;
+}
+
+#contactForm {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    padding: 15px;
+    background: #00e6a8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #00bd8b;
+}
+
+#response {
+    margin-top: 20px;
+    color: #00e6a8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #101820;
+}
